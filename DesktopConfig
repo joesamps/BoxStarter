@@ -36,10 +36,6 @@ Set-ItemProperty $key TaskbarGlomLevel 1
 Set-ItemProperty $key TaskbarSizeMove 0
 Set-ItemProperty $key WebView 1
 
-#Install Office 2016 O365
-
-T:\APP32\Office2016\ODT\setup.exe /configure installofficeProPlus32.xml
-
 #Changes Cortana to just the icon on the taskbar:
 
 Set-ItemProperty 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Search' SearchboxTaskbarMode 1
